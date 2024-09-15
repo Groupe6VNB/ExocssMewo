@@ -1,0 +1,413 @@
+
+/* Containe pour exo1 */
+.containe1 {
+    background-color: green; 
+    width: 400px; 
+    height: 150px; 
+    padding: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containe2 {
+    background-color: blue; 
+    width: 320px; 
+    height: 110px; 
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.containe3 {
+    background-color: orange; 
+    width: 200px;
+    height: 70px;  
+    padding: 5px;
+    border: 2px solid black;
+}
+/* ---------------Containe pour exo2----------------- */
+
+.containe4 {
+    background-color: green;
+    width: 380px;
+    height: 160px;
+    padding: 20px;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left: 400px;
+ 
+}
+
+.containe5 {
+    background-color: blue;
+    width: 340px;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid black;
+    position: relative;
+     top: 10px;
+     left: 80px;
+
+}
+
+.containe6 {
+    background-color: orange;
+    width: 310px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+    top: 18px;
+    right: 300px
+
+}
+/*-------------------Containe pour exo3------------------ */
+.containe7 {
+    background-color: green;
+    width: 380px;
+    height: 160px;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.containe8 {
+    background-color: blue;
+    width: 320px;
+    height: 110px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containe9 {
+    background-color: orange;
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 80px; /* Positionné à l'extérieur du rectangle bleu */
+    left: 10%; /* Centre horizontalement */
+   
+}
+/* -----------------------Containe pour exo4--------------------- */
+
+
+.containe10{
+
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+
+}
+
+.containe11{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 70px;
+    background-color: lightblue;
+    border: 2px solid black;
+
+}
+
+.containe12 {
+
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    background-color:green;
+    border: 2px solid black;
+
+}
+
+.purple-box {
+
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+
+}
+
+.orange-box {
+    position: absolute;
+    bottom: 5px;
+    right: 60px;
+    width: 60px;
+    height: 50px;
+    background-color: orange;
+    border: 2px solid black;
+
+
+}
+ 
+ 
+
+/* ----------------Containe pour exo5---------------------- */
+
+ .containers {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid black;
+ }
+ .box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 3px solid black;`
+ }
+ .green {
+    background-color:green;
+ }
+ .blue {
+    background-color: blue;
+ }
+ .orange {
+    background-color: orange;
+ }
+ .yellow {
+    background-color: yellow;
+ }
+
+ /* ----------------Containe pour exo6---------------------- */
+
+ 
+
+
+ 
+ 
+ .containere {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    border: 5px solid white;
+ }
+ .boxe {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    opacity: 0.8;
+    border: 3px solid black;
+ }
+ .greene {
+    background-color: green;
+    top: 10px;
+    left: 10px;
+ }
+ .bluee {
+    background-color: blue;
+    top: 40px;
+    left: 40px;
+ }
+ .orangee {
+    background-color: orange;
+    top: 70px;
+    left: 70px;
+ }
+ .yellowe {
+    background-color: yellow;
+    top: 100px;
+    left: 100px;
+ }
+ 
+ /* ----------------Containe pour exo7---------------------- */
+
+
+ .containet {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+.block27 {
+    width: 100px;
+    height: 100px;
+    background-color: #98bf21;
+    float: left;
+}
+.block28 {
+    width: 100px;
+    height: 100px;
+    background-color: #5C67D1;
+    float: left;
+}
+.block29 {
+    width: 300px;
+    height: 100px;
+    background-color: #A0522D;
+    float: left;
+    clear: both; /* Commencer une nouvelle ligne */
+}
+.block30 {
+    width: 100px;
+    height: 100px;
+    background-color: #BEBEBE;
+    float: right;
+    clear: both;
+}
+.block31 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFF00;
+    float: right;
+     clear: both;
+}
+
+
+
+/* ----------------Containe pour exo8---------------------- */
+
+
+
+
+/* Réinitialisation des marges */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de la page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: #D2691E;
+    width: 150px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p{
+    position: relative;
+}
+
+.arrow {
+    width: 100px;
+    height: 300px; /* Hauteur de la flèche */
+    background-color: #D2691E;
+    /* Ajustement du clip-path pour rendre la pointe plus courte */
+    clip-path: polygon(50px 70%, 100% 50%, 75% 50%, 75% 0%, 25% 0%, 25% 50%, 0% 50%);
+}
+
+/* Style du pied de page */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+.contente {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.top-right {
+    position: sticky;
+    top: 0;
+    margin-left: auto; /* Place l'élément à droite en prenant tout l'espace disponible à gauche */
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+.sidebar {
+    position: sticky;
+    top: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: #e5733c;
+    color: white;
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenteee {
+    padding: 20px;
+    margin-left: 220px; /* Space pour le sidebar */
+    flex: 1;
+    position: absolute;
+    top: 0; /* Positionnement du texte en haut */
+    left: 0;
+}
